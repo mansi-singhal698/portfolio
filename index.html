@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mansi Singhal | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a class="logo" href="#home">Mansi<span>.</span></a>
+    <ul id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text reveal">
+        <p class="hello">Hello, I'm</p>
+        <h1>Mansi Singhal</h1>
+        <h2>Web Developer <span>&</span> CSE Student</h2>
+        <p class="intro">I build responsive, user-friendly web applications and enjoy turning ideas into polished digital experiences. I also value consistent problem solving, academic excellence and continuous learning.</p>
+        <div class="buttons">
+          <a class="btn" href="#projects">View Projects</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+
+      <div class="photo-wrap reveal">
+        <div class="photo-ring">
+          <img src="images/profile.jpeg" alt="Mansi Singhal">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <p class="section-label">GET TO KNOW ME</p>
+      <h2>About Me</h2>
+      <div class="about-box">
+        <p>I am a Computer Science Engineering student with hands-on experience in Java, Data Structures and Algorithms, HTML, CSS, JavaScript and React.js.</p>
+        <p>I have a strong foundation in Object-Oriented Programming and Database Management Systems. I enjoy developing responsive web applications, problem-solving and learning modern technologies.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt reveal">
+      <p class="section-label">WHAT I KNOW</p>
+      <h2>Technical Skills</h2>
+      <div class="grid skills">
+        <article class="card"><div class="icon">&lt;/&gt;</div><h3>Languages</h3><p>Java</p><p>JavaScript</p><p>HTML5</p><p>CSS3</p></article>
+        <article class="card"><div class="icon">⚙</div><h3>Frameworks</h3><p>React.js</p><p>Bootstrap</p></article>
+        <article class="card"><div class="icon">⌘</div><h3>Core CS</h3><p>Data Structures & Algorithms</p><p>Object-Oriented Programming</p><p>Database Management System</p></article>
+        <article class="card"><div class="icon">⌁</div><h3>Dev Tools</h3><p>Git</p><p>GitHub</p><p>Visual Studio Code</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <p class="section-label">MY WORK</p>
+      <h2>Projects</h2>
+      <div class="grid projects">
+        <article class="project-card">
+          <div class="project-number">01</div>
+          <h3>TradeVista – Stock Trading Platform UI</h3>
+          <p class="tech">React.js • JavaScript • HTML5 • CSS3 • Bootstrap</p>
+          <p>Developed a responsive stock trading platform UI using reusable React components and Bootstrap. Implemented multi-page navigation using React Router for Products, Pricing, Support, and other sections. Built trading dashboard interfaces for holdings, positions, orders, and portfolio visualization.</p>
+        </article>
+        <article class="project-card">
+          <div class="project-number">02</div>
+          <h3>Edusity Website</h3>
+          <p class="tech">React.js • CSS3</p>
+          <p>Developed a responsive educational website with reusable React components, structured interfaces and interactive sections.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section alt reveal">
+      <p class="section-label">MILESTONES</p>
+      <h2>Achievements</h2>
+      <div class="grid achievements">
+        <article class="card university-card"><div class="achievement-gallery"><img class="university-photo" src="images/university-merit.png" alt="Mansi receiving university merit recognition"><img class="university-photo" src="images/university-topper.png" alt="University Topper 1st Position recognition for Mansi Singhal"></div><div class="big-icon">🏆</div><h3>University Merit</h3><p>Consistently secured a position in the university merit list, including Rank 1 during the 2nd year.</p></article>
+        <article class="card media-achievement-card"><div class="badge-gallery"><img src="images/leetcode-50.png" alt="LeetCode 50 Days Badge 2026"><img src="images/leetcode-100.png" alt="LeetCode 100 Days Badge 2026"></div><div class="big-icon">💻</div><h3>LeetCode</h3><p>Earned the LeetCode 50 Days Badge and 100 Days Badge for consistent problem solving.</p></article>
+        <article class="card media-achievement-card"><img class="sih-photo" src="images/sih-team.png" alt="Mansi with Smart India Hackathon team"><div class="big-icon">🚀</div><h3>Smart India Hackathon</h3><p>Participated twice in the national-level Smart India Hackathon.</p></article>
+      </div>
+    </section>
+
+    <section id="recognition" class="section recognition-section reveal">
+      <p class="section-label">ACADEMIC HIGHLIGHT</p>
+      <h2>District-Level Recognition</h2>
+      <div class="recognition-wrap">
+        <div class="recognition-photo">
+          <img src="images/district-topper.png" alt="Mansi receiving an academic recognition award">
+          <div class="photo-badge">Academic Recognition</div>
+        </div>
+        <div class="recognition-copy">
+          <span class="eyebrow">A MOMENT TO REMEMBER</span>
+          <h3>Celebrating academic achievement</h3>
+          <p>This recognition is part of my academic journey and a reminder of the consistency, effort and support that helped me grow.</p>
+          <div class="recognition-points">
+            <span>🏅 Academic achievement</span>
+            <span>📚 Continuous learning</span>
+            <span>✨ Growth mindset</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="section alt reveal">
+      <p class="section-label">PROOF OF WORK & LEARNING</p>
+      <h2>Certificates & Recognition</h2>
+      <p class="section-subtitle">A curated collection of academic, innovation and participation certificates. Click any certificate to view it larger.</p>
+      <div class="certificate-grid">
+        <article class="certificate-card featured-certificate" data-title="Certificate of Merit — 1st Position">
+          <button class="certificate-image-btn" type="button" aria-label="Open Certificate of Merit — 1st Position">
+            <img src="images/certificates/merit-rank-1.jpg" alt="Certificate of Merit for first position">
+            <span class="view-overlay">View certificate ↗</span>
+          </button>
+          <div class="certificate-info"><span>Academic</span><h3>Certificate of Merit</h3><p>1st position in institute / university merit.</p></div>
+        </article>
+        <article class="certificate-card featured-certificate" data-title="Certificate of Merit">
+          <button class="certificate-image-btn" type="button" aria-label="Open Certificate of Merit">
+            <img src="images/certificates/merit-certificate.jpg" alt="Certificate of Merit">
+            <span class="view-overlay">View certificate ↗</span>
+          </button>
+          <div class="certificate-info"><span>Academic</span><h3>Certificate of Merit</h3><p>Academic recognition from JMIT.</p></div>
+        </article>
+        <article class="certificate-card" data-title="Mukand Entrepreneur's Mela">
+          <button class="certificate-image-btn" type="button" aria-label="Open Mukand Entrepreneur's Mela certificate">
+            <img src="images/certificates/entrepreneur-mela.jpg" alt="Certificate of Appreciation from Mukand Entrepreneur's Mela">
+            <span class="view-overlay">View certificate ↗</span>
+          </button>
+          <div class="certificate-info"><span>Innovation</span><h3>Entrepreneur's Mela</h3><p>Certificate of Appreciation for participation.</p></div>
+        </article>
+        <article class="certificate-card" data-title="Smart India Hackathon 2024">
+          <button class="certificate-image-btn" type="button" aria-label="Open Smart India Hackathon 2024 certificate">
+            <img src="images/certificates/sih-2024.jpg" alt="Smart India Hackathon 2024 certificate">
+            <span class="view-overlay">View certificate ↗</span>
+          </button>
+          <div class="certificate-info"><span>Hackathon</span><h3>Smart India Hackathon 2024</h3><p>Internal Hackathon participation certificate.</p></div>
+        </article>
+        <article class="certificate-card" data-title="Smart India Hackathon 2025">
+          <button class="certificate-image-btn" type="button" aria-label="Open Smart India Hackathon 2025 certificate">
+            <img src="images/certificates/sih-2025.jpg" alt="Smart India Hackathon 2025 certificate">
+            <span class="view-overlay">View certificate ↗</span>
+          </button>
+          <div class="certificate-info"><span>Hackathon</span><h3>Smart India Hackathon 2025</h3><p>Internal Hackathon participation certificate.</p></div>
+        </article>
+        <article class="certificate-card" data-title="Academic Recognition Certificate">
+          <button class="certificate-image-btn" type="button" aria-label="Open academic recognition certificate">
+            <img src="images/certificates/academic-recognition.jpg" alt="Academic recognition certificate">
+            <span class="view-overlay">View certificate ↗</span>
+          </button>
+          <div class="certificate-info"><span>Recognition</span><h3>Academic Recognition</h3><p>Additional certificate from the academic journey.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <div class="certificate-modal" id="certificateModal" aria-hidden="true">
+      <button class="modal-close" type="button" aria-label="Close certificate viewer">×</button>
+      <div class="modal-content">
+        <img id="modalCertificate" src="" alt="">
+        <p id="modalTitle"></p>
+      </div>
+    </div>
+
+    <section id="education" class="section reveal">
+      <p class="section-label">MY JOURNEY</p>
+      <h2>Education</h2>
+      <div class="timeline">
+        <div class="edu"><span>2023 — 2027</span><h3>B.Tech in Computer Science</h3><p>Seth Jai Prakash Mukund Lal Institute of Engineering & Technology (JMIT), Radaur, Haryana</p></div>
+        <div class="edu"><span>2020 — 2022</span><h3>Class 12 — UP Board</h3><p>R.N. Tagore Vidya Peeth Inter College, Uttar Pradesh</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <p class="section-label">LET'S CONNECT</p>
+      <h2>Have an opportunity or project?</h2>
+      <p>Feel free to reach out. I'd be happy to connect.</p>
+      <a class="btn contact-btn" href="mailto:singhalmansi817@gmail.com">Send me an Email</a>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/mansi-singhal-143278297/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/mansi-singhal698" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://leetcode.com/u/Mansi_Dev/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Mansi Singhal • Built with HTML, CSS & JavaScript</footer>
+  <script src="script.js"></script>
+</body>
+</html>
